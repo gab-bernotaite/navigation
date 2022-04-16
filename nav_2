@@ -54,7 +54,7 @@
         height: 500px;
         position: fixed;
         top: 100px;
-        background-image: url_for('static', filename='images/family/20200523200949.jpg');
+        background-image: url("static/images/family/20200523200949.jpg");
         -webkit-background-size: cover;
         background-size: cover;
         background-position: center center;
@@ -84,7 +84,7 @@
         <header>
             <div class="wrapper">
                 <div class="logo">
-                    <a href="{{ url_for('static', filename='images/family/20200523200949.jpg') }}">Woman with child</a>
+                    <a href="image_source">Woman with child</a>
                 </div>
                 <nav>
                     <a href="link_to_home">Home</a>
